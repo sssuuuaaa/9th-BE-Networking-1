@@ -11,6 +11,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @RequiredArgsConstructor
 public class Networking1Application {
     public static void main(String[] args) {
+
+        System.out.println("테스트");
         SpringApplication.run(Networking1Application.class, args);
     }
 }
